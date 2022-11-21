@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    width: 100vw;
+    display: flex;
+    height: 1.5rem;
+}
