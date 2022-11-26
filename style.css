@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 * {
     box-sizing: border-box;
 }
+
 
 body {
     margin: 0;
 }
 
+h1,
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .main-header {
-    width: 97vw;
     display: flex;
     height: 3rem;
     background-color: white;
@@ -30,8 +37,8 @@ body {
 
 .hamburger-container {
     text-align: center;
-    width: 100%;
-    margin-left: auto;
+    width: 20%;
+    margin: auto 0.5rem;
     padding: 0.5rem 0;
 }
 
@@ -41,6 +48,11 @@ body {
     height: 3px;
     background: black;
     margin: 4px auto;
+}
+
+.main-header__driver-section,
+.main-header__rider-section {
+    display: none;
 }
 
 .yellow-banner-text {
